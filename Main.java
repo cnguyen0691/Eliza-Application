@@ -14,6 +14,7 @@ public class Main {
                 if (answer.equalsIgnoreCase("Q") ||
                         answer.equals("i am feeling great")) {
                     System.out.println(">>>End");
+                    break;
                 }
 
             }
