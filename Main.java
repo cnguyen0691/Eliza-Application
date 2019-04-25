@@ -9,8 +9,10 @@ public class Main {
         System.out.println("Good day. What is your problem?" );
         boolean ans = false;
         while (ans == false) {
-                System.out.println("Enter your response here or Q to quit: ");
+                System.out.print("Enter your response here or Q to quit: ");
                 String answer = input.nextLine();
+                String sysans = answer;
+                System.out.println(sysans);
                 if (answer.equalsIgnoreCase("Q") ||
                         answer.equals("i am feeling great")) {
                     System.out.println(">>>End");
